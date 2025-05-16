@@ -1,0 +1,40 @@
+#changeColorOnHover{
+    color:white;
+}
+#changeColorOnHover:hover{
+    color: black;
+}
+img{
+    width: 100px;
+}
+.block{
+    font-family: "Darker Grotesque", sans-serif;
+    color: black;
+}
+.quote{
+    font-family: "Cormorant Garamond", serif;
+    color: white;
+}
+body{
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    background-color: #5ca0d7;
+}
+#listy{
+    text-align: left;
+    margin-left: 40%;
+    font-weight: bold;
+}
+#quote1{
+    font-size: 15px;
+}
+#quote2{ 
+    font-size: 30px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#name{
+    color: white;
+}
