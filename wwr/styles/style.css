@@ -38,11 +38,16 @@ nav a:hover {
     justify-self: center;
     align-self: center;
 }
+.logo {
+    width: 100px;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
-  
+.social img {
+    width: 50px;
+}
 .icon {
     width: 80px;
 }
@@ -92,6 +97,34 @@ main section{
 }
 main section img{
     box-sizing: border-box;
+}
+.faq-content section{
+    text-align: left;
+    padding: 60px;
+}
+.question-1 img {
+    float: left;
+    padding: 10px;
+}
+.question-2 img {
+    float: right;
+    padding: 10px;
+}
+.question-3 img {
+    float: left;
+    padding: 10px;
+}
+.question-4 img {
+    float: right;
+    padding: 10px;
+}
+.question-5 img {
+    float: left;
+    padding: 10px;
+}
+.question-6 img {
+    float: right;
+    padding: 10px;
 }
 .home-title{
     color: black;
@@ -166,6 +199,9 @@ margin-top: 50px;
     box-shadow: 5px 5px 10px #6f7364;
     width: 100%;
 }
+.faq-heading{
+    text-align: center;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -207,5 +243,8 @@ margin-top: 50px;
     }
     footer {
         margin-top: 25px;
+    }
+    .faq-content img{
+        max-width: 100%;
     }
 }

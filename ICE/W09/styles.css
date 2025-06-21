@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+#card{
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+h1{
+    font-weight: bold;
+}
+#card-footer{
+    background-color: lightgray;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+
+}
+.card-footer-item{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: blue;
+}
+.card-footer-item-title{
+    font-size: 1.2em;
+}
+.card-footer-item-subtext{
+    font-size: 0.5em;
+}
