@@ -70,6 +70,7 @@ a:active{
     height: 50%;
     object-fit: cover;
     margin: 10px;
+    margin-top: 0;
 }
 .img_left{
     float: left;
@@ -113,7 +114,6 @@ h1, h3{
 #wood_img{
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
 }
 .wood_and_stone{
     clear: both;
@@ -124,7 +124,7 @@ h1, h3{
     display: grid;
     grid-template-rows: 55% 45%;
     max-height: 350px;
-    margin: -5px 10px 12px 10px;
+    margin: 0 10px 10px 10px;
 }
 #blackstone{
     width: 100%;
@@ -132,5 +132,5 @@ h1, h3{
     margin: 0;
 }
 #mushrooms{
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
