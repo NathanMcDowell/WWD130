@@ -64,6 +64,7 @@ a:active{
     width: 100%;
     background-color: #760000;
     padding: 10px;
+    overflow: hidden;
 }
 .content img{
     width: 50%;
@@ -115,7 +116,7 @@ h1, h3{
     width: 100%;
     text-align: center;
 }
-.wood_and_stone{
+.wood_and_stone, .nether_fortress, .nether_fortress_content, .bastion_remnant, .bastion_remnant_content{
     clear: both;
 }
 .wood_and_stone_img{
@@ -131,6 +132,21 @@ h1, h3{
     height: 100%;
     margin: 0;
 }
-#mushrooms{
-    /* margin-top: 5px; */
+.nether_fortress_imgs, .bastion_remnant_imgs{
+    float: right;
+    width: 40%;
+    margin-right: 20px;
+}
+.nether_fortress_imgs img, .bastion_remnant_imgs img{
+    width: 100%;
+}
+.bastion_p{
+
+}
+.bastion_p p{
+    width: 100%;
+    margin: 0 0 10px;
+}
+.bastion_remnant{
+    width: 100%;
 }
