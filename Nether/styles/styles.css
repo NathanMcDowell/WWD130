@@ -21,7 +21,6 @@ footer{
     height: 100%;
     width: 100%;
     display: flex;
-    justify-items: left;
     gap: 10px;
 }
 body{
@@ -140,9 +139,6 @@ h1, h3{
 }
 .nether_fortress_imgs img, .bastion_remnant_imgs img{
     width: 100%;
-}
-.bastion_p{
-
 }
 .bastion_p p{
     width: 100%;
